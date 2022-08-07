@@ -1,0 +1,30 @@
+{
+  "name": "ip-address-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html --out-dir=build",
+    "predeploy": "npm run build",
+    "deploy": "vercel --prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yerszh/IP-Address-Tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yerszh/IP-Address-Tracker/issues"
+  },
+  "homepage": "https://github.com/yerszh/IP-Address-Tracker#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "leaflet": "^1.8.0"
+  }
+}
