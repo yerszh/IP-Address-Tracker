@@ -1,5 +1,5 @@
 :root {
-    font-size: 10px;
+    font-size: 12px;
     font-family: 'Rubik', sans-serif;
   }
   * {
@@ -61,8 +61,8 @@
     display: block;
   
     content: '';
-    width: 7px;
-    height: 7px;
+    width: 8px;
+    height: 8px;
     background: transparent;
     border: 2px solid;
     border-color: white white transparent transparent;
@@ -73,7 +73,7 @@
     width: calc(100% - 3rem);
     background-color: white;
     padding: 2rem;
-    border-radius: 15px;
+    border-radius: 14px;
   
     display: flex;
     flex-direction: column;
@@ -84,7 +84,7 @@
   @media (min-width: 1024px) {
     .info {
       width: 100%;
-      max-width: 1000px;
+      max-width: 1024px;
       transform: translateY(50%);
   
       margin-left: auto;
